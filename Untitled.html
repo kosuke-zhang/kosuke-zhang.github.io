@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+    <meta charset="utf-8" />
+
+<meta name="generator" content="Hexo 4.2.0" />
+
+<meta name="baidu-site-verification" content="h3LSftZQfn" />
+<meta name="google-site-verification" content="dEQo33Y698ork2nyg1SRLjzpdaXkZdFwzIop0o1HxXM" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<title>彩虹的情诗</title>
+
+
+    <meta name="description" content="版本控制无论项目大小，我认为但凡属于编程的范畴，你都应该使用版本控制系统，这个编程本身的特点有很大的关系。版本控制系统有很多，其中 git 和 svn 名气和影响比较大，就目前而言 git 是最好的选择，没有之一。 我这里不再累述，如果你有些疑问，下面两篇文章或许可以帮助到你： 为什么要使用版本控制系统？ 为什么选择 Git？ 对 git 还没有任何了解？廖雪峰的教程还是很不错的，可以简要的阅读下">
+<meta property="og:type" content="website">
+<meta property="og:title" content="彩虹的情诗">
+<meta property="og:url" content="https://blog.adream.win/Untitled.html">
+<meta property="og:site_name" content="彩虹的情诗">
+<meta property="og:description" content="版本控制无论项目大小，我认为但凡属于编程的范畴，你都应该使用版本控制系统，这个编程本身的特点有很大的关系。版本控制系统有很多，其中 git 和 svn 名气和影响比较大，就目前而言 git 是最好的选择，没有之一。 我这里不再累述，如果你有些疑问，下面两篇文章或许可以帮助到你： 为什么要使用版本控制系统？ 为什么选择 Git？ 对 git 还没有任何了解？廖雪峰的教程还是很不错的，可以简要的阅读下">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.adream.win/images/og_image.png">
+<meta property="article:published_time" content="2020-02-10T03:24:28.370Z">
+<meta property="article:modified_time" content="2020-02-10T03:24:28.366Z">
+<meta property="article:author" content="xu.zhang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.adream.win/images/og_image.png">
+
+
+
+
+
+
+
+<link rel="icon" href="/static/images/favicon.png">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css">
+
+
+    
+    
+<style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+
+    
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+    
+    
+    
+    
+<link rel="stylesheet" href="/css/back-to-top.css">
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152046316-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152046316-1');
+</script>
+
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?1b8c7c87b31bad33e07f04ec3ec0dc99";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    
+    
+    
+    <link rel="stylesheet" href="/css/progressbar.css">
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+    
+    <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body class="is-3-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/">
+            
+                <img src="/static/images/logo.png" alt="" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item"
+                href="/">主页</a>
+                
+                <a class="navbar-item"
+                href="/archives">归档</a>
+                
+                <a class="navbar-item"
+                href="/categories">分类</a>
+                
+                <a class="navbar-item"
+                href="/tags">标签</a>
+                
+                <a class="navbar-item"
+                href="/2019/11/12/about-me/">关于</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                    
+                    <a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/zhangxu3486432/">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                    
+                
+                
+                
+                <a class="navbar-item search" title="搜索" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                
+            
+        </h1>
+        <div class="content">
+            <h2 id="版本控制"><a href="#版本控制" class="headerlink" title="版本控制"></a>版本控制</h2><p>无论项目大小，我认为但凡属于编程的范畴，你都应该使用版本控制系统，这个编程本身的特点有很大的关系。版本控制系统有很多，其中 <code>git</code> 和 <code>svn</code> 名气和影响比较大，就目前而言 <code>git</code> 是最好的选择，没有之一。</p>
+<p>我这里不再累述，如果你有些疑问，下面两篇文章或许可以帮助到你：</p>
+<p><a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/basics/why-use-version-control">为什么要使用版本控制系统？</a></p>
+<p><a href="https://www.git-tower.com/learn/git/ebook/cn/command-line/appendix/why-git">为什么选择 Git？</a></p>
+<p>对 <code>git</code> 还没有任何了解？廖雪峰的教程还是很不错的，可以简要的阅读下：</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git 教程</a></p>
+<h3 id="Github-的使用"><a href="#Github-的使用" class="headerlink" title="Github 的使用"></a>Github 的使用</h3><p><a href="https://help.github.com/cn/github/getting-started-with-github/create-a-repo">创建仓库</a></p>
+<p>如果是一个人开发，可以直接在 <code>master</code> 分支下修改提交代码，不过规范的做法是要创建新的分支：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git branch dev  <span class="comment"># 创建 dev 分支</span></span><br><span class="line">git checkout dev  <span class="comment"># 切换到 dev 分支</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># or</span></span><br><span class="line"></span><br><span class="line">git branch -b dev  <span class="comment"># 等价于上面的两条命令</span></span><br></pre></td></tr></table></figure>
+
+<p>在本地开发并测试结束以后，需要将 <code>dev</code> 分支 push 到 <code>Github</code>，再通过<a href="https://help.github.com/cn/enterprise/2.19/user/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request">创建拉取请求 new pull request</a> 的方式和 <code>master</code> 分支进行合并。</p>
+<p>为什么要这么麻烦呢？</p>
+<p>两个原因：</p>
+<ol>
+<li><p>如果我们创建了 CI，在提交合并请求的时候会自动触发 CI 来完成你提前规定的任务，比如代码测试、自动部署等，这使得我们在合并代码的时候就能完成很多任务，十分的便捷。</p>
+<p><a href="https://help.github.com/cn/actions/automating-your-workflow-with-github-actions/about-continuous-integration">关于持续集成</a></p>
+</li>
+<li><p>创建 pull request 之后可以指定队友帮你 review，可以在一定程度上避免严重的 bug，保证代码质量。</p>
+</li>
+</ol>
+<h2 id="Scrapy-开发"><a href="#Scrapy-开发" class="headerlink" title="Scrapy 开发"></a>Scrapy 开发</h2><p>Scrapy 很简单，也很强大。。。</p>
+<p>Scrapy 用默认的配置就可以很好地完成任务，如果不符合需求，也很方便的对各种模块进行自定义。</p>
+<h3 id="定义-Item"><a href="#定义-Item" class="headerlink" title="定义 Item"></a>定义 Item</h3><p>首先需要对保存的数据内容进行定义</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>id</td>
+<td>每条数据的唯一标识符</td>
+</tr>
+<tr>
+<td>news_id</td>
+<td>新闻的唯一标识符</td>
+</tr>
+<tr>
+<td>url</td>
+<td>新闻地址</td>
+</tr>
+<tr>
+<td>content</td>
+<td>新闻内容</td>
+</tr>
+<tr>
+<td>category</td>
+<td>新闻类别</td>
+</tr>
+<tr>
+<td>source</td>
+<td>新闻来源</td>
+</tr>
+<tr>
+<td>data</td>
+<td>新闻日期</td>
+</tr>
+<tr>
+<td>page</td>
+<td>当前页数</td>
+</tr>
+<tr>
+<td>entry_time</td>
+<td>入库时间</td>
+</tr>
+</tbody></table>
+<p>中国公安网上一则新闻可能分为多页显示，我们对每一页分开进行保存，因为如果合并保存的话有可能页面太长导致存储错误。</p>
+<p>id 是 url 和 method 的 sha1 值。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> scrapy.utils.request <span class="keyword">import</span> request_fingerprint</span><br><span class="line"></span><br><span class="line">id = request_fingerprint(response.request)</span><br></pre></td></tr></table></figure>
+
+<h3 id="解析页面"><a href="#解析页面" class="headerlink" title="解析页面"></a>解析页面</h3><p>一共有 25 个类别的新闻数据需要抓取，这也新闻页面之间是有差异的，如果分开编写解析函数工作量太大，在对页面进行分析之后找到了很多共同点，很多数据可以使用相同 Xpath 进行提取。</p>
+<table>
+<thead>
+<tr>
+<th>数据项</th>
+<th>Xpath</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>title</td>
+<td>//*[@id=”newslist”]/h1/gettitle/text()</td>
+</tr>
+<tr>
+<td>content</td>
+<td>//*[@id=”fz_test”]/div[1]/table</td>
+</tr>
+<tr>
+<td>category</td>
+<td>//*[@id=”source_report”]/text()</td>
+</tr>
+<tr>
+<td>date</td>
+<td>//*[@id=”pub_time_report”]/text()</td>
+</tr>
+</tbody></table>
+<p>在提取总页数和当前页数的时候，</p>
+<p>我们需要从 url 里面提取 news_id，url 有两种不同的格式，需要用不同的正则表达式进行分别处理：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># http://zhian.cpd.com.cn/n26237006/202001/t20200120_877942.html</span></span><br><span class="line">p_path1 = re.compile(<span class="string">'(.*/)(.*?_.*?)\.html'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 'http://jt.cpd.com.cn/n462015/c4191056/content.html'</span></span><br><span class="line">p_path2 = re.compile(<span class="string">'(.*?)content.html'</span>)</span><br></pre></td></tr></table></figure>
+
+<p>在提取新闻的总页数和当前页数的时候有两种不同页面，也需要用两种不同的正则表达书进行处理：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># http://jt.cpd.com.cn/n462015/c4191056/content.html</span></span><br><span class="line">p_news1 = re.compile(<span class="string">'createPageHTML\((\d+), (\d+),'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 'http://minsheng.cpd.com.cn/n1448492/c3834444/content.html'</span></span><br><span class="line">p_news2 = re.compile(<span class="string">'var maxPageNum=(\d+);.*?var pageName = (\d+);'</span>, re.S)</span><br></pre></td></tr></table></figure>
+
+<h3 id="持久化"><a href="#持久化" class="headerlink" title="持久化"></a>持久化</h3><p>在获取到数据之后存入到 MySQL 之中，数据表的定义如下：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">create</span> <span class="keyword">schema</span> <span class="keyword">if</span> <span class="keyword">not</span> <span class="keyword">exists</span> news <span class="keyword">collate</span> utf8mb4_unicode_ci;</span><br><span class="line"></span><br><span class="line"><span class="keyword">use</span> news;</span><br><span class="line"></span><br><span class="line"><span class="keyword">create</span> <span class="keyword">table</span> <span class="keyword">if</span> <span class="keyword">not</span> <span class="keyword">exists</span> cpd_news</span><br><span class="line">(</span><br><span class="line">	<span class="keyword">id</span> <span class="built_in">varchar</span>(<span class="number">40</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	<span class="keyword">url</span> <span class="built_in">varchar</span>(<span class="number">255</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	title <span class="built_in">varchar</span>(<span class="number">255</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	<span class="keyword">content</span> <span class="built_in">text</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	<span class="keyword">category</span> <span class="built_in">varchar</span>(<span class="number">5</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	<span class="keyword">source</span> <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	<span class="built_in">date</span> <span class="built_in">varchar</span>(<span class="number">30</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	news_id <span class="built_in">varchar</span>(<span class="number">50</span>) <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">	page <span class="built_in">int</span> <span class="keyword">not</span> <span class="literal">null</span>,</span><br><span class="line">  entry_time DATETIME <span class="keyword">not</span> <span class="literal">null</span> <span class="keyword">DEFAULT</span> <span class="keyword">CURRENT_TIMESTAMP</span>,</span><br><span class="line">	<span class="keyword">constraint</span> data_id_uindex</span><br><span class="line">		<span class="keyword">unique</span> (<span class="keyword">id</span>)</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> <span class="keyword">data</span></span><br><span class="line">	<span class="keyword">add</span> primary <span class="keyword">key</span> (<span class="keyword">id</span>);</span><br></pre></td></tr></table></figure>
+
+<p>利用 PyMysql 库与 MySQL 进行交互。</p>
+<h3 id="URL-去重"><a href="#URL-去重" class="headerlink" title="URL 去重"></a>URL 去重</h3><p>每次在启动爬虫的时候，已经抓取的 URL 可以直接跳过不必再重复抓取，Scrapy 提供了去重的方法，但是默认的情况下 URL 的持久化数据存在在了本地，难以迁移，而且请求失败的 URL 也同样被存储了起来，这不符合我们的要求，我们重新定义了 DUPEFILTER_CLASS 去重方法：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># settings.py</span></span><br><span class="line">DUPEFILTER_CLASS = <span class="string">'crawler.dupefilters.RFPDupeFilter'</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># dupefilters.py</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">RFPDupeFilter</span><span class="params">(BaseDupeFilter)</span>:</span></span><br><span class="line">    <span class="string">"""Request Fingerprint duplicates filter"""</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, database_name=None, table_name=None, filter_name=None, debug=False)</span>:</span></span><br><span class="line">        self.fingerprints = set()</span><br><span class="line">        self.logdupes = <span class="literal">True</span></span><br><span class="line">        self.debug = debug</span><br><span class="line">        self.logger = logging.getLogger(__name__)</span><br><span class="line">        self.fingerprints.update()</span><br><span class="line">        <span class="keyword">if</span> database_name <span class="keyword">and</span> table_name:</span><br><span class="line">            host = settings.get(<span class="string">'MYSQL_HOST'</span>, <span class="string">'localhost'</span>)</span><br><span class="line">            mysql_user = settings.get(<span class="string">'MYSQL_USER'</span>, <span class="string">'root'</span>)</span><br><span class="line">            mysql_pwd = settings.get(<span class="string">'MYSQL_PASSWORD'</span>, <span class="string">'news_crawler'</span>)</span><br><span class="line">            mysql_port = settings.get(<span class="string">'MYSQL_PORT'</span>, <span class="number">3306</span>)</span><br><span class="line">            self.db = pymysql.connect(host, mysql_user, mysql_pwd, database_name, mysql_port)</span><br><span class="line">            self.cursor = self.db.cursor()</span><br><span class="line">            sql = <span class="string">"SELECT &#123;0&#125; FROM &#123;1&#125; WHERE 1"</span>.format(filter_name, table_name)</span><br><span class="line">            self.cursor.execute(sql)</span><br><span class="line">            ids = self.cursor.fetchall()</span><br><span class="line">            ids = map(<span class="keyword">lambda</span> x: x[<span class="number">0</span>], ids)</span><br><span class="line">            self.fingerprints.update(ids)</span><br><span class="line"></span><br><span class="line"><span class="meta">    @classmethod</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">from_crawler</span><span class="params">(cls, crawler)</span>:</span></span><br><span class="line">        debug = settings.getbool(<span class="string">'DUPEFILTER_DEBUG'</span>)</span><br><span class="line">        <span class="keyword">return</span> cls(crawler.spider.database_name, crawler.spider.table_name, crawler.spider.filter_name, debug)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">request_seen</span><span class="params">(self, request)</span>:</span></span><br><span class="line">        fp = self.request_fingerprint(request)</span><br><span class="line">        <span class="keyword">if</span> fp <span class="keyword">in</span> self.fingerprints:</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line">        self.fingerprints.add(fp)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">request_fingerprint</span><span class="params">(self, request)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> request_fingerprint(request)</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">close</span><span class="params">(self, reason)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> self.db <span class="keyword">and</span> self.cursor:</span><br><span class="line">            self.db.close()</span><br><span class="line">            self.cursor.close()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(self, request, spider)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> self.debug:</span><br><span class="line">            msg = <span class="string">"Filtered duplicate request: %(request)s (referer: %(referer)s)"</span></span><br><span class="line">            args = &#123;<span class="string">'request'</span>: request, <span class="string">'referer'</span>: referer_str(request)&#125;</span><br><span class="line">            self.logger.debug(msg, args, extra=&#123;<span class="string">'spider'</span>: spider&#125;)</span><br><span class="line">        <span class="keyword">elif</span> self.logdupes:</span><br><span class="line">            msg = (<span class="string">"Filtered duplicate request: %(request)s"</span></span><br><span class="line">                   <span class="string">" - no more duplicates will be shown"</span></span><br><span class="line">                   <span class="string">" (see DUPEFILTER_DEBUG to show all duplicates)"</span>)</span><br><span class="line">            self.logger.debug(msg, &#123;<span class="string">'request'</span>: request&#125;, extra=&#123;<span class="string">'spider'</span>: spider&#125;)</span><br><span class="line">            self.logdupes = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">        spider.crawler.stats.inc_value(<span class="string">'dupefilter/filtered'</span>, spider=spider)</span><br></pre></td></tr></table></figure>
+
+<p>可以看到，我们在每次启动爬虫的时候从数据库获取 URL 信息，对即将抓去的链接进行检测去重，相对于默认的去重模式，我们重写后的方法不再存在难以迁移的问题，也能更加方便的进行管理。</p>
+<h2 id="反爬"><a href="#反爬" class="headerlink" title="反爬"></a>反爬</h2><h3 id="添加代理"><a href="#添加代理" class="headerlink" title="添加代理"></a>添加代理</h3><p>由于对方服务器的反爬措施比较严格，添加 IP 代理是最便捷也是最有效的突破反爬的方式。我们使用的是阿布代理，每秒钟最多可以发送 5 次请求，每次请求的代理 IP 会随机变化，所以需要同时限制抓取频率：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 限制抓取频率</span></span><br><span class="line"><span class="comment"># settings.py</span></span><br><span class="line">CONCURRENT_REQUESTS = <span class="number">5</span></span><br><span class="line">DOWNLOAD_DELAY = <span class="number">0.2</span></span><br><span class="line">RANDOMIZE_DOWNLOAD_DELAY = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加代理</span></span><br><span class="line"><span class="comment"># middlewares.py</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 代理服务器</span></span><br><span class="line">proxyServer = <span class="string">"http://http-dyn.abuyun.com:9020"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 代理隧道验证信息</span></span><br><span class="line">proxyUser = <span class="string">""</span></span><br><span class="line">proxyPass = <span class="string">""</span></span><br><span class="line"></span><br><span class="line">proxyAuth = <span class="string">"Basic "</span> + base64.urlsafe_b64encode(bytes((proxyUser + <span class="string">":"</span> + proxyPass), <span class="string">"ascii"</span>)).decode(<span class="string">"utf8"</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ProxyMiddleware</span><span class="params">(object)</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">process_request</span><span class="params">(self, request, spider)</span>:</span></span><br><span class="line">        request.meta[<span class="string">"proxy"</span>] = proxyServer</span><br><span class="line">        request.headers[<span class="string">"Proxy-Authorization"</span>] = proxyAuth</span><br></pre></td></tr></table></figure>
+
+<h3 id="随机更换-User-Agent"><a href="#随机更换-User-Agent" class="headerlink" title="随机更换 User-Agent"></a>随机更换 User-Agent</h3><p>检测 User-Agent 是反爬的重要手段之一，为了躲避这种反爬手段，我们需要随机更换 User-Agent：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 随机更换 User-Agent</span></span><br><span class="line"><span class="comment"># middlewares.py</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">RandomUserAgentMiddleware</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="string">"""This middleware allows spiders to override the user_agent"""</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self)</span>:</span></span><br><span class="line">        self.user_agent_list = settings.get(<span class="string">'USER_AGENT_LIST'</span>)</span><br><span class="line">        self.count = <span class="number">0</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">process_request</span><span class="params">(self, request, spider)</span>:</span></span><br><span class="line">        request.headers[<span class="string">'User-Agent'</span>] = random.choice(self.user_agent_list)</span><br><span class="line"></span><br><span class="line"><span class="comment"># User-Agent 列表</span></span><br><span class="line"><span class="comment"># settings.py</span></span><br><span class="line">USER_AGENT_LIST = [</span><br><span class="line">    <span class="string">'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'</span>,</span><br><span class="line">    <span class="string">'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'</span>,</span><br><span class="line">    <span class="string">'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1'</span>,</span><br><span class="line">    <span class="string">'Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1'</span>,</span><br><span class="line">    <span class="string">'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11'</span>,</span><br><span class="line">    <span class="string">'Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11'</span>,</span><br><span class="line">    <span class="string">'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; TencentTraveler 4.0)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; The World)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; SE 2.X MetaSr 1.0; SE 2.X MetaSr 1.0; .NET CLR 2.0.50727; SE 2.X MetaSr 1.0)'</span>,</span><br><span class="line">    <span class="string">'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'</span>,</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h3 id="Docker-Build"><a href="#Docker-Build" class="headerlink" title="Docker Build"></a>Docker Build</h3><p>使用 Docker，可以简化部署流程，更轻松的迁移以及更轻松的维护和扩展。</p>
+<p><a href="https://yeasy.gitbooks.io/docker_practice/introduction/why.html">为什么要用 Docker</a></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">FROM</span> <span class="string">python:3.7.3</span></span><br><span class="line"></span><br><span class="line"><span class="string">RUN</span> <span class="string">mkdir</span> <span class="string">/project</span></span><br><span class="line"></span><br><span class="line"><span class="string">WORKDIR</span> <span class="string">/project</span></span><br><span class="line"></span><br><span class="line"><span class="string">ADD</span> <span class="string">crawler/.</span> <span class="string">/project</span></span><br><span class="line"></span><br><span class="line"><span class="string">RUN</span> <span class="string">mkdir</span> <span class="string">error</span> <span class="string">log</span></span><br><span class="line"></span><br><span class="line"><span class="string">RUN</span> <span class="string">pip</span> <span class="string">install</span> <span class="string">-i</span> <span class="string">https://mirrors.aliyun.com/pypi/simple/</span> <span class="string">-r</span> <span class="string">requirements.txt</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Docker-compose"><a href="#Docker-compose" class="headerlink" title="Docker-compose"></a>Docker-compose</h3><p>使用 docker-compose 分别部署数据库和爬虫程序。</p>
+<p>数据库：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3'</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">db:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">mysql</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">mysql-crawler</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">mysqld</span> <span class="string">--character-set-server=utf8mb4</span> <span class="string">--collation-server=utf8mb4_unicode_ci</span> <span class="comment">#设置utf8字符集</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_ROOT_PASSWORD:</span> <span class="string">news_crawler</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">'3306:3306'</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">../data/mysql/db:/var/lib/mysql</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./init/cpd.sql:/docker-entrypoint-initdb.d/init.sql:ro</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">crawler_db</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">gui:</span></span><br><span class="line">    <span class="attr">depends_on:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">db</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">phpmyadmin/phpmyadmin</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">phpmyadmin-crawler</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">MYSQL_ROOT_PASSWORD:</span> <span class="string">news_crawler</span></span><br><span class="line">      <span class="attr">PMA_HOST:</span> <span class="string">db</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">'8000:80'</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">crawler_db</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">crawler_db:</span></span><br></pre></td></tr></table></figure>
+
+<p>爬虫：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3'</span></span><br><span class="line"></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"></span><br><span class="line">  <span class="attr">crawler:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">registry.cn-hangzhou.aliyuncs.com/traffic_news/cpd_crawler:latest</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">crawler</span></span><br><span class="line">    <span class="attr">command:</span> <span class="string">scrapy</span> <span class="string">crawl</span> <span class="string">cpd</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">./log/:/project/log/</span></span><br><span class="line">    <span class="attr">networks:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">crawler_net</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line">  <span class="attr">crawler_net:</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="自动化构建-Docker-镜像"><a href="#自动化构建-Docker-镜像" class="headerlink" title="自动化构建 Docker 镜像"></a>自动化构建 Docker 镜像</h3><p>在每次将代码提交合并到 github 的 master 分支上之后，自动的构建 docker image 并自动上传到镜像仓库。</p>
+<p>使用阿里云的<a href="https://cr.console.aliyun.com/cn-hangzhou/instances/repositories">容器镜像服务</a>，创建自动构建设置，当项目 mater 分支更新则自动构建并上传镜像仓库。</p>
+<h3 id="定时抓取"><a href="#定时抓取" class="headerlink" title="定时抓取"></a>定时抓取</h3><p>利用 Linux crontab 服务，创建定时任务：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crontab -e <span class="comment"># 打开服务设置</span></span><br></pre></td></tr></table></figure>
+
+<p>设置自动定时任务</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10,20,30,40,50,59 * * * * /usr/<span class="built_in">local</span>/bin/docker-compose -f /root/Projects/traffic_news/deploy/docker-compose-crawler.yml up -d</span><br></pre></td></tr></table></figure>
+
+<p>重新加载 crontab，生效服务</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service cron reload</span><br></pre></td></tr></table></figure>
+
+
+        </div>
+        
+        
+        
+        <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_telegram"></a>
+<a class="a2a_button_whatsapp"></a>
+<a class="a2a_button_reddit"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="comment-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.4.1/dist/gitalk.min.js"></script>
+<script>
+    var gitalk = new Gitalk({
+        clientID: '878129594fc437bec510',
+        clientSecret: '028818300679fc27e2b0a374d3caaba36d887ca2',
+        id: 'd645b1ad3c76428d03b3008b8490ec05',
+        repo: 'zhangxu3486432.github.io',
+        owner: 'zhangxu3486432',
+        admin: "zhangxu3486432",
+        createIssueManually: false,
+        distractionFreeMode: false
+    })
+    gitalk.render('comment-container')
+</script>
+
+    </div>
+</div>
+</div>
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen  has-order-1 column-left is-sticky">
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <nav class="level">
+            <div class="level-item has-text-centered" style="flex-shrink: 1">
+                <div>
+                    
+                    <figure class="image is-128x128 has-mb-6">
+                        <img class="" src="/static/images/logo.jpeg" alt="xu.zhang">
+                    </figure>
+                    
+                    <p class="is-size-4 is-block">
+                        xu.zhang
+                    </p>
+                    
+                    
+                    <p class="is-size-6 is-flex is-flex-center">
+                        
+                            UCAS master&nbsp;&nbsp;
+                        
+                        <i class="fas fa-map-marker-alt has-mr-7"></i>
+                        
+                            <span>Beijing</span>
+                        
+                    </p>
+                    
+                </div>
+            </div>
+        </nav>
+        <nav class="level is-mobile">
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        文章
+                    </p>
+                    <a href="/archives">
+                        <p class="title has-text-weight-normal">
+                            4
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        分类
+                    </p>
+                    <a href="/categories">
+                        <p class="title has-text-weight-normal">
+                            7
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="level-item has-text-centered is-marginless">
+                <div>
+                    <p class="heading">
+                        标签
+                    </p>
+                    <a href="/tags">
+                        <p class="title has-text-weight-normal">
+                            8
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- <div class="level">
+            <a class="level-item button is-link is-rounded" href="https://github.com/zhangxu3486432" target="_blank" rel="noopener">
+                关注我</a>
+        </div> -->
+        
+        
+        
+        <div class="level is-mobile">
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Wechat" href="/static/images/weixin.png">
+                
+                <i class="fab fa-weixin"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Github" href="https://github.com/zhangxu3486432">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Weibo" href="https://weibo.com/u/6812563745">
+                
+                <i class="fab fa-weibo"></i>
+                
+            </a>
+            
+            <a class="level-item button is-white is-marginless" target="_blank" rel="noopener"
+                title="Twitter" href="https://space.bilibili.com/355889103/video">
+                
+                <i class="iconfont icon-iconbilibili"></i>
+                
+            </a>
+            
+        </div>
+        
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            最新文章
+        </h3>
+        
+        <article class="media">
+            
+            <a href="/2020/02/04/software-2020-02-04-UCAS-Affair-Scripts/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/static/images/ucas.jpg" alt="UCAS Affair Scripts">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-04T12:42:08.000Z">2020-02-04</time></div>
+                    <a href="/2020/02/04/software-2020-02-04-UCAS-Affair-Scripts/" class="title has-link-black-ter is-size-6 has-text-weight-normal">UCAS Affair Scripts</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/">开源项目</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/11/23/paper-%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/static/images/city.svg" alt="城市异常事件检测">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-22T16:01:41.000Z">2019-11-23</time></div>
+                    <a href="/2019/11/23/paper-%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="title has-link-black-ter is-size-6 has-text-weight-normal">城市异常事件检测</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/%E8%AE%BA%E6%96%87/">论文</a> / <a class="has-link-grey -link" href="/categories/%E8%AE%BA%E6%96%87/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/">城市计算</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/11/12/tutorial-The-tutorial-of-hexo-and-Icarus-theme/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/avatar.png" alt="The tutorial of Hexo and Icarus theme">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-12T12:27:39.000Z">2019-11-12</time></div>
+                    <a href="/2019/11/12/tutorial-The-tutorial-of-hexo-and-Icarus-theme/" class="title has-link-black-ter is-size-6 has-text-weight-normal">The tutorial of Hexo and Icarus theme</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a> / <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91/">博客开发</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/11/12/about-me/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/static/images/me_thumbnail.jpg" alt="About me">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-12T11:26:31.000Z">2019-11-12</time></div>
+                    <a href="/2019/11/12/about-me/" class="title has-link-black-ter is-size-6 has-text-weight-normal">About me</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/%E5%85%B3%E4%BA%8E%E6%88%91/">关于我</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+    </div>
+</div>
+    
+    
+        <div class="column-right-shadow is-hidden-widescreen is-sticky">
+        
+            
+        
+            
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/%E5%85%B3%E4%BA%8E%E6%88%91/">
+            <span class="level-start">
+                <span class="level-item">关于我</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/">
+            <span class="level-start">
+                <span class="level-item">开源项目</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/%E6%95%99%E7%A8%8B/">
+            <span class="level-start">
+                <span class="level-item">教程</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a><ul><li>
+        <a class="level is-marginless" href="/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91/">
+            <span class="level-start">
+                <span class="level-item">博客开发</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li></ul></li><li>
+        <a class="level is-marginless" href="/categories/%E8%AE%BA%E6%96%87/">
+            <span class="level-start">
+                <span class="level-item">论文</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a><ul><li>
+        <a class="level is-marginless" href="/categories/%E8%AE%BA%E6%96%87/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/">
+            <span class="level-start">
+                <span class="level-item">城市计算</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li></ul></li>
+            </ul>
+        </div>
+    </div>
+</div>
+        
+            <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/icarus/" style="font-size: 10px;">icarus</a> <a href="/tags/tutorial/" style="font-size: 10px;">tutorial</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/" style="font-size: 10px;">中国科学院大学</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">城市计算</a> <a href="/tags/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/" style="font-size: 10px;">异常检测</a> <a href="/tags/%E7%BB%BC%E8%BF%B0/" style="font-size: 10px;">综述</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 10px;">论文</a>
+    </div>
+</div>
+        
+        </div>
+    
+</div>
+
+                
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only has-order-3 column-right is-sticky">
+    
+        
+    
+        
+<div class="card widget">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                分类
+            </h3>
+            <ul class="menu-list">
+            <li>
+        <a class="level is-marginless" href="/categories/%E5%85%B3%E4%BA%8E%E6%88%91/">
+            <span class="level-start">
+                <span class="level-item">关于我</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/">
+            <span class="level-start">
+                <span class="level-item">开源项目</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li><li>
+        <a class="level is-marginless" href="/categories/%E6%95%99%E7%A8%8B/">
+            <span class="level-start">
+                <span class="level-item">教程</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a><ul><li>
+        <a class="level is-marginless" href="/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91/">
+            <span class="level-start">
+                <span class="level-item">博客开发</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li></ul></li><li>
+        <a class="level is-marginless" href="/categories/%E8%AE%BA%E6%96%87/">
+            <span class="level-start">
+                <span class="level-item">论文</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a><ul><li>
+        <a class="level is-marginless" href="/categories/%E8%AE%BA%E6%96%87/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/">
+            <span class="level-start">
+                <span class="level-item">城市计算</span>
+            </span>
+            <span class="level-end">
+                <span class="level-item tag">1</span>
+            </span>
+        </a></li></ul></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+        <div class="card widget">
+    <div class="card-content">
+        <h3 class="menu-label">
+            标签云
+        </h3>
+        <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/icarus/" style="font-size: 10px;">icarus</a> <a href="/tags/tutorial/" style="font-size: 10px;">tutorial</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/" style="font-size: 10px;">中国科学院大学</a> <a href="/tags/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/" style="font-size: 10px;">城市计算</a> <a href="/tags/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/" style="font-size: 10px;">异常检测</a> <a href="/tags/%E7%BB%BC%E8%BF%B0/" style="font-size: 10px;">综述</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 10px;">论文</a>
+    </div>
+</div>
+    
+    
+</div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/">
+                
+                    <img src="/static/images/logo.png" alt="" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 xu.zhang&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> & <a
+                        href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a>
+                
+                <br>
+                <span id="busuanzi_container_site_uv">
+                共<span id="busuanzi_value_site_uv">0</span>个访客
+                </span>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/zhangxu3486432/">
+                        
+                        <i class="fab fa-github"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("zh-CN");</script>
+
+
+<script>
+var IcarusThemeSettings = {
+    site: {
+        url: 'https://blog.adream.win',
+        external_link: {"enable":true,"exclude":[]}
+    },
+    article: {
+        highlight: {
+            clipboard: true,
+            fold: 'unfolded'
+        }
+    }
+};
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+
+
+
+
+
+<script src="/js/animation.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+<script src="/js/gallery.js" defer></script>
+
+
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        });
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    MathJax.Hub.Config({
+        'HTML-CSS': {
+            matchFontHeight: false
+        },
+        SVG: {
+            matchFontHeight: false
+        },
+        CommonHTML: {
+            matchFontHeight: false
+        },
+        tex2jax: {
+            inlineMath: [
+                ['$','$'],
+                ['\\(','\\)']
+            ]
+        }
+    });
+});
+</script>
+
+
+<a id="back-to-top" title="回到顶端">
+    <i class="fas fa-chevron-up"></i>
+</a>
+<script src="/js/back-to-top.js" defer></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="/js/main.js" defer></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="想要查找什么..." />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js" defer></script>
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/insight.css">
+    
+</body>
+</html>
