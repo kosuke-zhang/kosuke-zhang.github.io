@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.adream.win/software/UCAS-Affair-Scripts/</loc>
+    <lastmod>2020-02-23</lastmod>
+  </url>  <url>
     <loc>https://blog.adream.win/tutorial/The-tutorial-of-hexo-and-Icarus-theme/</loc>
     <lastmod>2020-02-22</lastmod>
   </url>  <url>
     <loc>https://blog.adream.win/tutorial/docker-timezone/</loc>
-    <lastmod>2020-02-22</lastmod>
-  </url>  <url>
-    <loc>https://blog.adream.win/software/2020-02-04-UCAS-Affair-Scripts/</loc>
     <lastmod>2020-02-22</lastmod>
   </url>  <url>
     <loc>https://blog.adream.win/article/poems/</loc>

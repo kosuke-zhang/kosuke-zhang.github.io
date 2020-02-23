@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.adream.win/software/UCAS-Affair-Scripts/</loc>
+    
+    <lastmod>2020-02-23T16:20:01.630Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/404.html</loc>
+    
+    <lastmod>2020-02-23T16:18:50.039Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.adream.win/about/index.html</loc>
     
     <lastmod>2020-02-23T14:42:58.877Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>https://blog.adream.win/tutorial/docker-timezone/</loc>
     
     <lastmod>2020-02-22T07:06:55.240Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.adream.win/software/2020-02-04-UCAS-Affair-Scripts/</loc>
-    
-    <lastmod>2020-02-22T06:51:07.326Z</lastmod>
     
   </url>
   
