@@ -1,6 +1,5 @@
-blog.adream.win/tutorial/docker-timezone/
-blog.adream.win/article/poems/
-blog.adream.win/software/2020-02-04-UCAS-Affair-Scripts/
-blog.adream.win/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/
-blog.adream.win/tutorial/The-tutorial-of-hexo-and-Icarus-theme/
-blog.adream.win/about/me/
+https://blog.adream.win/tutorial/docker-timezone/
+https://blog.adream.win/article/poems/
+https://blog.adream.win/software/2020-02-04-UCAS-Affair-Scripts/
+https://blog.adream.win/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/
+https://blog.adream.win/tutorial/The-tutorial-of-hexo-and-Icarus-theme/
