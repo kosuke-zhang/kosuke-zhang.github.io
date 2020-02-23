@@ -10,23 +10,24 @@
 <meta name="sogou_site_verification" content="DC6q0talc1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>UCAS Affair Scripts - 彩虹的情诗</title>
+<title>Docker 设置时区 - 彩虹的情诗</title>
 
 
-    <meta name="description" content="项目地址 开发&#x2F;收集 中国科学院大学 各种事务的自动化脚本 已有脚本：  选课 监听成绩  期待贡献，添加更多有趣的脚本，kill TodoList item">
+    <meta name="description" content="简介Docker 默认时区是协调世界时，又称世界标准时间，简称 UTC 中国大陆、香港、澳门、台湾、蒙古国、新加坡、马来西亚、菲律宾、澳洲西部的时间与 UTC 的时差均为 +8，也就是 UTC+8。 中国标准时间又称为 CST(China Standard Time)">
 <meta property="og:type" content="article">
-<meta property="og:title" content="UCAS Affair Scripts">
-<meta property="og:url" content="blog.adream.win/software-2020-02-04-UCAS-Affair-Scripts/index.html">
+<meta property="og:title" content="Docker 设置时区">
+<meta property="og:url" content="blog.adream.win/tutorial/docker-timezone/index.html">
 <meta property="og:site_name" content="彩虹的情诗">
-<meta property="og:description" content="项目地址 开发&#x2F;收集 中国科学院大学 各种事务的自动化脚本 已有脚本：  选课 监听成绩  期待贡献，添加更多有趣的脚本，kill TodoList item">
+<meta property="og:description" content="简介Docker 默认时区是协调世界时，又称世界标准时间，简称 UTC 中国大陆、香港、澳门、台湾、蒙古国、新加坡、马来西亚、菲律宾、澳洲西部的时间与 UTC 的时差均为 +8，也就是 UTC+8。 中国标准时间又称为 CST(China Standard Time)">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="/static/images/ucas_t.svg">
-<meta property="article:published_time" content="2020-02-04T12:42:08.000Z">
-<meta property="article:modified_time" content="2020-02-22T06:51:07.326Z">
+<meta property="og:image" content="/static/images/clock_t.svg">
+<meta property="article:published_time" content="2020-02-21T14:30:29.000Z">
+<meta property="article:modified_time" content="2020-02-22T07:06:55.240Z">
 <meta property="article:author" content="xu.zhang">
-<meta property="article:tag" content="中国科学院大学">
+<meta property="article:tag" content="Docker">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="/static/images/ucas_t.svg">
+<meta name="twitter:image" content="/static/images/clock_t.svg">
 
 
 
@@ -102,7 +103,7 @@ var _hmt = _hmt || [];
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/static/images/logo.png" alt="UCAS Affair Scripts" height="28">
+                <img src="/static/images/logo.png" alt="Docker 设置时区" height="28">
             
             </a>
         </div>
@@ -160,7 +161,7 @@ var _hmt = _hmt || [];
     
     <div class="card-image">
         <span  class="image is-7by1">
-            <img class="cover" src="/static/images/ucas_c.webp" alt="UCAS Affair Scripts">
+            <img class="cover" src="/static/images/timezone.webp" alt="Docker 设置时区">
         </span>
     </div>
     
@@ -168,17 +169,17 @@ var _hmt = _hmt || [];
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2020-02-04T12:42:08.000Z">2020-02-04</time>
+                <time class="level-item has-text-grey" datetime="2020-02-21T14:30:29.000Z">2020-02-21</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/">开源项目</a>
+                <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/Docker/">Docker</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    3 分钟 读完 (大约 466 个字)
+                    2 分钟 读完 (大约 253 个字)
                 </span>
                 
                 
@@ -192,84 +193,24 @@ var _hmt = _hmt || [];
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                UCAS Affair Scripts
+                Docker 设置时区
             
         </h1>
         <div class="content">
-            <p><a href="https://github.com/zhangxu3486432/UCAS-Affair-Scripts"><img src="https://img.shields.io/badge/python-3.7-blue.svg" alt="python"></a> <a href="https://img.shields.io/github/license/zhangxu3486432/UCAS-Affair-Scripts"><img src="https://img.shields.io/github/license/zhangxu3486432/UCAS-Affair-Scripts" alt="python"></a></p>
-<p><a href="https://github.com/zhangxu3486432/UCAS-Affair-Scripts">项目地址</a></p>
-<p>开发/收集 中国科学院大学 各种事务的自动化脚本</p>
-<p>已有脚本：</p>
-<ul>
-<li>选课</li>
-<li>监听成绩</li>
-</ul>
-<p>期待贡献，添加更多有趣的脚本，kill TodoList item</p>
+            <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>Docker 默认时区是协调世界时，又称世界标准时间，简称 UTC</p>
+<p>中国大陆、香港、澳门、台湾、蒙古国、新加坡、马来西亚、菲律宾、澳洲西部的时间与 UTC 的时差均为 +8，也就是 UTC+8。</p>
+<p>中国标准时间又称为 CST(China Standard Time)</p>
 <a id="more"></a>
 
-<blockquote>
-<p>Warning:</p>
-<p>由于 <code>选课系统</code> 只能单点登录，如果同时运行两个脚本，或者在运行脚本的时候登陆网页端，他们之前会争抢会话。</p>
-<p>脚本默认在会话失效后再次自动获取，所以在刷课和监听成绩的过程中，如果您需要浏览选课系统的网页端，需要先暂停脚本。</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">kill -STOP $pid # suspend</span><br><span class="line">kill -CONT $pid # resume</span><br></pre></td></tr></table></figure>
-</blockquote>
-<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><h3 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h3><p>Pull project:</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/zhangxu3486432/UCAS-Affair-Scripts.git</span><br></pre></td></tr></table></figure>
+<h2 id="查看时区"><a href="#查看时区" class="headerlink" title="查看时区"></a>查看时区</h2><p>可以使用 <code>date</code> 命令查看时区信息</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">➜ date</span><br><span class="line"><span class="meta">#</span><span class="bash"> UTC 时间</span></span><br><span class="line">Sat Feb 21 16:15:16 UTC 2020</span><br><span class="line"></span><br><span class="line">➜ date</span><br><span class="line"><span class="meta">#</span><span class="bash"> CST 时间</span></span><br><span class="line">Sat Feb 22 00:15:16 CST 2020</span><br></pre></td></tr></table></figure>
 
-<p>Enter the working directory:</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd UCAS-Affair-Scripts</span><br></pre></td></tr></table></figure>
+<h2 id="更改时区"><a href="#更改时区" class="headerlink" title="更改时区"></a>更改时区</h2><p>根据应用方式的不同修改 Docker 时区可分为三种方式</p>
+<h3 id="docker-compose"><a href="#docker-compose" class="headerlink" title="docker-compose"></a>docker-compose</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">environment:</span></span><br><span class="line">    <span class="attr">TZ:</span> <span class="string">Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
 
-<p>Install dependency:</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install -r deploy/requirements.txt</span><br></pre></td></tr></table></figure>
+<h3 id="Dockerfile"><a href="#Dockerfile" class="headerlink" title="Dockerfile"></a>Dockerfile</h3><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 需要安装 tzdata 依赖</span></span><br><span class="line"><span class="keyword">RUN</span><span class="bash"> apk add --no-cache tzdata</span></span><br><span class="line"><span class="keyword">ENV</span> TZ Asia/Shanghai</span><br><span class="line"></span><br><span class="line"><span class="comment"># or</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 若容器内不存在 /usr/share/zoneinfo，则需要创建这个目录</span></span><br><span class="line"><span class="keyword">RUN</span><span class="bash"> apk add --no-cache tzdata \</span></span><br><span class="line"><span class="bash">    &amp;&amp; ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \</span></span><br><span class="line"><span class="bash">    &amp;&amp; <span class="built_in">echo</span> <span class="string">"Asia/Shanghai"</span> &gt; /etc/timezone</span></span><br><span class="line"><span class="keyword">ENV</span> TZ Asia/Shanghai</span><br></pre></td></tr></table></figure>
 
-<h3 id="Configuration"><a href="#Configuration" class="headerlink" title="Configuration"></a>Configuration</h3><blockquote>
-<p>Set in the settings.py</p>
-</blockquote>
-<p>Set <code>http://sep.ucas.ac.cn/</code> UserName and PassWord</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">USERNAME = <span class="string">''</span></span><br><span class="line">PASSWORD = <span class="string">''</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Login"><a href="#Login" class="headerlink" title="Login"></a>Login</h3><blockquote>
-<p>In the off-campus network login need to fill in the <code>Verification Code</code>. First login to save cookies in <code>sep.cookie</code>, so that you can facilitate deployment in the server.</p>
-</blockquote>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 login.py</span><br></pre></td></tr></table></figure>
-
-<p>The <code>Verification Code</code> picture is saved in verification.png, open the picture identification key and fill it in terminal.</p>
-<p><img src="/static/images/verification.png" alt="verification code"></p>
-<p>As you can see, this <code>Verification Code</code> is <code>7351</code>.</p>
-<p>Fill the <code>7351</code> in terminal and press enter.</p>
-<p><img src="/static/images/login.png" alt="login input"></p>
-<h3 id="RUN-take-courses"><a href="#RUN-take-courses" class="headerlink" title="RUN take-courses"></a>RUN take-courses</h3><ol>
-<li><p>Set the courses which you want to take</p>
-<p>Examples:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">COURSES = [<span class="string">'自然语言处理'</span>, <span class="string">'机器人智能控制'</span>, <span class="string">'积极心理学'</span>]</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Fill in the college to which the course you choose belongs</p>
-<p> Examples:</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">COLLEGES = [<span class="string">'人工智能学院'</span>, <span class="string">'心理学系'</span>]</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Run</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 take_courses.py</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h3 id="Run-monitor-grades"><a href="#Run-monitor-grades" class="headerlink" title="Run monitor_grades"></a>Run monitor_grades</h3><ol>
-<li><p>Set email info</p>
-<blockquote>
-<p>if you want to monitor your grads, you need to set it</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">SEND_EMAIL = <span class="string">''</span></span><br><span class="line">SEND_EMAIL_PWD = <span class="string">''</span></span><br><span class="line"></span><br><span class="line">RECEIVE_EMAIL = <span class="string">''</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Run</p>
-<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 monitor_grades.py</span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<h2 id="TodoList"><a href="#TodoList" class="headerlink" title="TodoList"></a>TodoList</h2><ul>
-<li><input disabled="" type="checkbox"> Test and adapt to more python versions</li>
-<li><input disabled="" type="checkbox"> Shuttle Bus Reservation</li>
-<li><input disabled="" type="checkbox"> Build Docker Image</li>
-<li><input disabled="" type="checkbox"> Automatic Identification Verification Code</li>
-</ul>
+<h3 id="docker-run"><a href="#docker-run" class="headerlink" title="docker run"></a>docker run</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> 容器的时区和主机的时区相同</span></span><br><span class="line">docker run -v /etc/timezone:/etc/timezone -v /etc/localtime:/etc/localtime -it [image name] sh</span><br></pre></td></tr></table></figure>
 
         </div>
         
@@ -277,7 +218,7 @@ var _hmt = _hmt || [];
             <div class="level-start">
                 <div class="level-item">
                     <span class="is-size-6 has-text-grey has-mr-7">#</span>
-                    <a class="has-link-grey -link" href="/tags/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2%E5%A4%A7%E5%AD%A6/" rel="tag">中国科学院大学</a>
+                    <a class="has-link-grey -link" href="/tags/Docker/" rel="tag">Docker</a>, <a class="has-link-grey -link" href="/tags/Linux/" rel="tag">Linux</a>
                 </div>
             </div>
         </div>
@@ -307,17 +248,10 @@ var _hmt = _hmt || [];
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         
-        <div class="level-start">
-            <a class="level level-item has-link-grey  article-nav-prev" href="/article-poems/">
-                <i class="level-item fas fa-chevron-left"></i>
-                <span class="level-item">那些年我写的现代诗</span>
-            </a>
-        </div>
-        
         
         <div class="level-end">
-            <a class="level level-item has-link-grey  article-nav-next" href="/paper-%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/">
-                <span class="level-item">城市异常事件检测</span>
+            <a class="level level-item has-link-grey  article-nav-next" href="/article/poems/">
+                <span class="level-item">那些年我写的现代诗</span>
                 <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
@@ -338,7 +272,7 @@ var _hmt = _hmt || [];
     var gitalk = new Gitalk({
         clientID: '878129594fc437bec510',
         clientSecret: '028818300679fc27e2b0a374d3caaba36d887ca2',
-        id: '24e40bf55f410de91ef4fde8db2e8daf',
+        id: '6775b62ced748b09b12ee5927395e6a4',
         repo: 'zhangxu3486432.github.io',
         owner: 'zhangxu3486432',
         admin: "zhangxu3486432",
@@ -472,7 +406,7 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/tutorial-docker-timezone/" class="media-left">
+            <a href="/tutorial/docker-timezone/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/static/images/clock_t.svg" alt="Docker 设置时区">
                 </p>
@@ -481,7 +415,7 @@ var _hmt = _hmt || [];
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-21T14:30:29.000Z">2020-02-21</time></div>
-                    <a href="/tutorial-docker-timezone/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Docker 设置时区</a>
+                    <a href="/tutorial/docker-timezone/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Docker 设置时区</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a> / <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/Docker/">Docker</a>
                     </p>
@@ -491,7 +425,7 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/article-poems/" class="media-left">
+            <a href="/article/poems/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/static/images/book_t.svg" alt="那些年我写的现代诗">
                 </p>
@@ -500,7 +434,7 @@ var _hmt = _hmt || [];
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-15T08:20:14.000Z">2020-02-15</time></div>
-                    <a href="/article-poems/" class="title has-link-black-ter is-size-6 has-text-weight-normal">那些年我写的现代诗</a>
+                    <a href="/article/poems/" class="title has-link-black-ter is-size-6 has-text-weight-normal">那些年我写的现代诗</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/%E6%9D%82%E8%AE%B0/">杂记</a>
                     </p>
@@ -510,7 +444,7 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/software-2020-02-04-UCAS-Affair-Scripts/" class="media-left">
+            <a href="/software/2020-02-04-UCAS-Affair-Scripts/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/static/images/ucas_t.svg" alt="UCAS Affair Scripts">
                 </p>
@@ -519,7 +453,7 @@ var _hmt = _hmt || [];
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2020-02-04T12:42:08.000Z">2020-02-04</time></div>
-                    <a href="/software-2020-02-04-UCAS-Affair-Scripts/" class="title has-link-black-ter is-size-6 has-text-weight-normal">UCAS Affair Scripts</a>
+                    <a href="/software/2020-02-04-UCAS-Affair-Scripts/" class="title has-link-black-ter is-size-6 has-text-weight-normal">UCAS Affair Scripts</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/">开源项目</a>
                     </p>
@@ -529,7 +463,7 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/paper-%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="media-left">
+            <a href="/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/static/images/city_t.svg" alt="城市异常事件检测">
                 </p>
@@ -538,7 +472,7 @@ var _hmt = _hmt || [];
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-22T16:01:41.000Z">2019-11-23</time></div>
-                    <a href="/paper-%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="title has-link-black-ter is-size-6 has-text-weight-normal">城市异常事件检测</a>
+                    <a href="/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/" class="title has-link-black-ter is-size-6 has-text-weight-normal">城市异常事件检测</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/%E8%AE%BA%E6%96%87/">论文</a> / <a class="has-link-grey -link" href="/categories/%E8%AE%BA%E6%96%87/%E5%9F%8E%E5%B8%82%E8%AE%A1%E7%AE%97/">城市计算</a>
                     </p>
@@ -548,7 +482,7 @@ var _hmt = _hmt || [];
         
         <article class="media">
             
-            <a href="/tutorial-The-tutorial-of-hexo-and-Icarus-theme/" class="media-left">
+            <a href="/tutorial/The-tutorial-of-hexo-and-Icarus-theme/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/avatar.png" alt="The tutorial of Hexo and Icarus theme">
                 </p>
@@ -557,7 +491,7 @@ var _hmt = _hmt || [];
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-11-12T12:27:39.000Z">2019-11-12</time></div>
-                    <a href="/tutorial-The-tutorial-of-hexo-and-Icarus-theme/" class="title has-link-black-ter is-size-6 has-text-weight-normal">The tutorial of Hexo and Icarus theme</a>
+                    <a href="/tutorial/The-tutorial-of-hexo-and-Icarus-theme/" class="title has-link-black-ter is-size-6 has-text-weight-normal">The tutorial of Hexo and Icarus theme</a>
                     <p class="is-size-7 is-uppercase">
                         <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a> / <a class="has-link-grey -link" href="/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%8F%91/">博客开发</a>
                     </p>
@@ -583,34 +517,30 @@ var _hmt = _hmt || [];
                     <i onclick="this.previousElementSibling.previousElementSibling.innerText='展开目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-right"></i>
                 </h3>
                 <div style="display: block;"><ul class="menu-list"></i><li>
-        <a class="is-flex" style="display: inline;" href="#Usage">
+        <a class="is-flex" style="display: inline;" href="#简介">
         <span class="has-mr-6">1</span>
-        <span>Usage</span>
-        &nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
-        <a class="is-flex" style="display: inline;" href="#Initialization">
-        <span class="has-mr-6">1.1</span>
-        <span>Initialization</span>
+        <span>简介</span>
         </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Configuration">
-        <span class="has-mr-6">1.2</span>
-        <span>Configuration</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Login">
-        <span class="has-mr-6">1.3</span>
-        <span>Login</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#RUN-take-courses">
-        <span class="has-mr-6">1.4</span>
-        <span>RUN take-courses</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Run-monitor-grades">
-        <span class="has-mr-6">1.5</span>
-        <span>Run monitor_grades</span>
-        </a></li></ul></li><li>
-        <a class="is-flex" style="display: inline;" href="#TodoList">
+        <a class="is-flex" style="display: inline;" href="#查看时区">
         <span class="has-mr-6">2</span>
-        <span>TodoList</span>
-        </a></li></ul></div>
+        <span>查看时区</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#更改时区">
+        <span class="has-mr-6">3</span>
+        <span>更改时区</span>
+        &nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
+        <a class="is-flex" style="display: inline;" href="#docker-compose">
+        <span class="has-mr-6">3.1</span>
+        <span>docker-compose</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#Dockerfile">
+        <span class="has-mr-6">3.2</span>
+        <span>Dockerfile</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#docker-run">
+        <span class="has-mr-6">3.3</span>
+        <span>docker run</span>
+        </a></li></ul></li></ul></div>
             </div>
         </div>
     </div>
@@ -718,34 +648,30 @@ var _hmt = _hmt || [];
                     <i onclick="this.previousElementSibling.previousElementSibling.innerText='展开目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-right"></i>
                 </h3>
                 <div style="display: block;"><ul class="menu-list"></i><li>
-        <a class="is-flex" style="display: inline;" href="#Usage">
+        <a class="is-flex" style="display: inline;" href="#简介">
         <span class="has-mr-6">1</span>
-        <span>Usage</span>
-        &nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
-        <a class="is-flex" style="display: inline;" href="#Initialization">
-        <span class="has-mr-6">1.1</span>
-        <span>Initialization</span>
+        <span>简介</span>
         </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Configuration">
-        <span class="has-mr-6">1.2</span>
-        <span>Configuration</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Login">
-        <span class="has-mr-6">1.3</span>
-        <span>Login</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#RUN-take-courses">
-        <span class="has-mr-6">1.4</span>
-        <span>RUN take-courses</span>
-        </a></li><li>
-        <a class="is-flex" style="display: inline;" href="#Run-monitor-grades">
-        <span class="has-mr-6">1.5</span>
-        <span>Run monitor_grades</span>
-        </a></li></ul></li><li>
-        <a class="is-flex" style="display: inline;" href="#TodoList">
+        <a class="is-flex" style="display: inline;" href="#查看时区">
         <span class="has-mr-6">2</span>
-        <span>TodoList</span>
-        </a></li></ul></div>
+        <span>查看时区</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#更改时区">
+        <span class="has-mr-6">3</span>
+        <span>更改时区</span>
+        &nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
+        <a class="is-flex" style="display: inline;" href="#docker-compose">
+        <span class="has-mr-6">3.1</span>
+        <span>docker-compose</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#Dockerfile">
+        <span class="has-mr-6">3.2</span>
+        <span>Dockerfile</span>
+        </a></li><li>
+        <a class="is-flex" style="display: inline;" href="#docker-run">
+        <span class="has-mr-6">3.3</span>
+        <span>docker run</span>
+        </a></li></ul></li></ul></div>
             </div>
         </div>
     </div>
@@ -842,7 +768,7 @@ var _hmt = _hmt || [];
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/static/images/logo.png" alt="UCAS Affair Scripts" height="28">
+                    <img src="/static/images/logo.png" alt="Docker 设置时区" height="28">
                 
                 </a>
                 <p class="is-size-7">
