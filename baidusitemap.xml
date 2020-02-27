@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.adream.win/article/poems/</loc>
+    <lastmod>2020-02-27</lastmod>
+  </url>  <url>
     <loc>https://blog.adream.win/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/</loc>
     <lastmod>2020-02-26</lastmod>
   </url>  <url>
@@ -11,9 +14,6 @@
     <lastmod>2020-02-24</lastmod>
   </url>  <url>
     <loc>https://blog.adream.win/software/UCAS-Affair-Scripts/</loc>
-    <lastmod>2020-02-24</lastmod>
-  </url>  <url>
-    <loc>https://blog.adream.win/article/poems/</loc>
     <lastmod>2020-02-24</lastmod>
   </url>
 </urlset>
