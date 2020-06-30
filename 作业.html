@@ -15,16 +15,16 @@
     <meta name="keywords" content="web,后端,产品,诗歌,爬虫,docker,大数据,深度学习,机器学习,论文科研,技术知识,个人博客,记录">
 
 
-    <meta name="description" content="博弈论第三次作业不完全信息静态博弈考虑如下贝叶斯博弈：  （1）自然决定支付矩阵（a）或（b），概率分别为 $u$ 和 $1-u$； （2）参与人1知道自然的选择，即知道自然选择支付矩阵（a） 或（b），但是参与人2不知道自然的选择； （3）参与人1和参与人2同时行动。给出这个博弈的扩”展式表述并求纯战略贝叶斯均衡。  表 a   表 b  解答由图可知，当自然选择 a 时，S1 选择T，期望收益">
+    <meta name="description" content="指导要求： （1）自己搭建网络，构建训练集、验证集和测试集，完成从训练、调参到测试的全过程； （2）每项课程作业对应报告文档，文档包含摘要、问题描述、解决方案（包含损失函数设计、网络结构设计，创新点（如果有自己的创新想法））、实验分析（数据集介绍、实验结果、ablation study）、总结； （3）学会对自己工作的文字化描述，体现逻辑性，具有说服力； （4）独立完成，严禁抄袭； （5）中文或者">
 <meta property="og:type" content="website">
 <meta property="og:title" content="彩虹的情诗">
 <meta property="og:url" content="https://blog.adream.win/%E4%BD%9C%E4%B8%9A.html">
 <meta property="og:site_name" content="彩虹的情诗">
-<meta property="og:description" content="博弈论第三次作业不完全信息静态博弈考虑如下贝叶斯博弈：  （1）自然决定支付矩阵（a）或（b），概率分别为 $u$ 和 $1-u$； （2）参与人1知道自然的选择，即知道自然选择支付矩阵（a） 或（b），但是参与人2不知道自然的选择； （3）参与人1和参与人2同时行动。给出这个博弈的扩”展式表述并求纯战略贝叶斯均衡。  表 a   表 b  解答由图可知，当自然选择 a 时，S1 选择T，期望收益">
+<meta property="og:description" content="指导要求： （1）自己搭建网络，构建训练集、验证集和测试集，完成从训练、调参到测试的全过程； （2）每项课程作业对应报告文档，文档包含摘要、问题描述、解决方案（包含损失函数设计、网络结构设计，创新点（如果有自己的创新想法））、实验分析（数据集介绍、实验结果、ablation study）、总结； （3）学会对自己工作的文字化描述，体现逻辑性，具有说服力； （4）独立完成，严禁抄袭； （5）中文或者">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://blog.adream.win/images/og_image.png">
-<meta property="article:published_time" content="2020-05-29T08:51:24.434Z">
-<meta property="article:modified_time" content="2020-05-29T08:51:24.428Z">
+<meta property="article:published_time" content="2020-06-25T14:42:45.776Z">
+<meta property="article:modified_time" content="2020-06-25T14:42:45.771Z">
 <meta property="article:author" content="xu.zhang">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="后端">
@@ -176,40 +176,12 @@ var _hmt = _hmt || [];
             
         </h1>
         <div class="content">
-            <h1 id="博弈论第三次作业"><a href="#博弈论第三次作业" class="headerlink" title="博弈论第三次作业"></a>博弈论第三次作业</h1><h2 id="不完全信息静态博弈"><a href="#不完全信息静态博弈" class="headerlink" title="不完全信息静态博弈"></a>不完全信息静态博弈</h2><p>考虑如下贝叶斯博弈： </p>
-<p>（1）自然决定支付矩阵（a）或（b），概率分别为 $u$ 和 $1-u$；</p>
-<p>（2）参与人1知道自然的选择，即知道自然选择支付矩阵（a） 或（b），但是参与人2不知道自然的选择；</p>
-<p>（3）参与人1和参与人2同时行动。给出这个博弈的扩”展式表述并求纯战略贝叶斯均衡。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zhangxu3486432/zhangxu3486432.github.io/static/images/20200529163837.png" alt=""></p>
-<center>表 a</center>
-
-<p><img src="https://cdn.jsdelivr.net/gh/zhangxu3486432/zhangxu3486432.github.io/static/images/20200529164025.png" alt=""></p>
-<center>表 b</center>
-
-<h3 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h3><p>由图可知，当自然选择 a 时，S1 选择T，期望收益最大，当自然选择 b 时，S1 选择 B 期望收益最大。</p>
-<p>S2 选择 L 的期望收益是 $u1+(1-u)<em>0=u$，选择R的期望收益是 $u</em>0+(1-u)*2=2-2u$。当 $u=2-2u$ 时，即 $u=2/3$，S2 选择 L 和 R 无差异，当 $u&gt;2-2u$，即 $u&gt;2/3$ 时，S2 选择 L 期望收益最大，相反，当 $u&lt;2/3$ 时，S2 选择 R 收益最大。 </p>
-<p>贝叶斯纳什均衡是： S1 在自然选择 a 时，选择T，在自然选择 b 时，选择B； S2 在  $u&gt;2/3$  时，选择L，$u&lt;2/3$ 时，选择 R</p>
-<h2 id="不完全信息动态博弈"><a href="#不完全信息动态博弈" class="headerlink" title="不完全信息动态博弈"></a>不完全信息动态博弈</h2><p>厂商A是这个寡头市场的在位者，厂商B是进入者</p>
-<p><img src="https://pic4.zhimg.com/80/v2-bdb2ec4e13d7dd82c925c9729fbaaf7b_1440w.jpg" alt="img"></p>
-<p>在博弈的过程中，B是想知道A的类型究竟是高成本还是低成本，也就是A高成本的概率有多大。</p>
-<p>在第一轮博弈之前，假定B对A的类型与行为的概率初步判断如下：</p>
-<p><img src="https://pic4.zhimg.com/80/v2-29c5cf83153e35e0cffa6a409d0d5a27_1440w.jpg" alt="img"></p>
-<p>数字表示发生的概率，注意阻扰的概率是基于高低成本已发生才确认出来的</p>
-<p>由此我们可以推算B受阻扰的概率为</p>
-<p><img src="https://pic2.zhimg.com/80/v2-dcaf92d28ccc6ba177b89d32020bb15d_1440w.png" alt="img"></p>
-<p>这个阻扰概率是在博弈之前推算的，属于<strong>先验概率</strong>。</p>
-<p>第一轮博弈后，B收到了阻扰，这时，B受阻扰的概率就可以更新了，我们可以算出在阻扰的情况下，A高成本的概率为：</p>
-<p><img src="https://pic3.zhimg.com/80/v2-bb914da153b7ea030bd897d95608a452_1440w.png" alt="img"></p>
-<p>这时，B原本认为A属于高成本的概率就会从0.7变为0.32（更新了）。</p>
-<p>此时的概率情况如下所示</p>
-<p><img src="https://pic1.zhimg.com/80/v2-4f954caa7cd6ae8899058e5969ff9170_1440w.jpg" alt="img"></p>
-<p>我们观察下所用的贝叶斯计算等式，可以发现，公式里起到更新作用的（新加进来的），正是阻扰的概率P(阻扰)，这是基于第一轮B受阻扰这一事实而提出来的。</p>
-<p>现在进行第二轮博弈，B还是受到了阻扰，所以，B受阻的概率为：</p>
-<p><img src="https://pic2.zhimg.com/80/v2-5bddb257bcdc79372b1e327c25ff2a35_1440w.png" alt="img"></p>
-<p>相应的，在受阻扰的前提下，B认为A属于高成本的概率又得到了更新：</p>
-<p><img src="https://pic1.zhimg.com/80/v2-81b36aa4008a21d571c02d76d468c3d8_1440w.png" alt="img"></p>
-<p>结果：</p>
-<p>在先后两轮博弈中，B认为A属于高成本的概率由0.7变为0.32再变为0.086，那么可以认为，A是不属于高成本类型的厂商，理智的B应当选择不进入市场。</p>
+            <h4 id="指导"><a href="#指导" class="headerlink" title="指导"></a>指导</h4><p>要求：</p>
+<p>（1）自己搭建网络，构建训练集、验证集和测试集，完成从训练、调参到测试的全过程；</p>
+<p>（2）每项课程作业对应报告文档，文档包含摘要、问题描述、解决方案（包含损失函数设计、网络结构设计，创新点（如果有自己的创新想法））、实验分析（数据集介绍、实验结果、ablation study）、总结；</p>
+<p>（3）学会对自己工作的文字化描述，体现逻辑性，具有说服力；</p>
+<p>（4）独立完成，严禁抄袭；</p>
+<p>（5）中文或者英文，希望大家学习使用LaTex完成文档；</p>
 
         </div>
         
