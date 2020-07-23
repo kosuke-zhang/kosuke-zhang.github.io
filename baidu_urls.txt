@@ -1,4 +1,4 @@
-https://blog.adream.win/bug/pg%E8%BF%81%E7%A7%BB/
+https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/
 https://blog.adream.win/tutorial/docker-timezone/
 https://blog.adream.win/article/poems/
 https://blog.adream.win/software/UCAS-Affair-Scripts/
