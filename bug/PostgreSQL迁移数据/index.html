@@ -12,8 +12,8 @@
 
 <title>PostgreSQL 迁移数据 - 彩虹的情诗</title>
 
-    <meta name="keywords" content="web,后端,产品,诗歌,爬虫,docker,大数据,深度学习,机器学习,论文科研,技术知识,个人博客,记录">
-
+    <meta name="keywords" content="PostgreSQL,search_path">
+    
 
     <meta name="description" content="记录 postgresql 数据库迁移中遇见的一个问题。">
 <meta property="og:type" content="article">
@@ -24,11 +24,10 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zhangxu3486432/static/image/elephant.png">
 <meta property="article:published_time" content="2020-07-23T08:07:27.000Z">
-<meta property="article:modified_time" content="2020-07-23T10:00:19.984Z">
+<meta property="article:modified_time" content="2020-07-23T10:03:15.449Z">
 <meta property="article:author" content="xu.zhang">
-<meta property="article:tag" content="数据库">
 <meta property="article:tag" content="PostgreSQL">
-<meta property="article:tag" content="Bug">
+<meta property="article:tag" content="search_path">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/zhangxu3486432/static/image/elephant.png">
 
@@ -211,7 +210,8 @@ var _hmt = _hmt || [];
 <h2 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h2><p>在 pg_dump 备份文件中，注释掉下面这行即可：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SELECT pg_catalog.set_config(<span class="string">'search_path'</span>, <span class="string">''</span>, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
 
-<h2 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h2><h1 id="no-schema-has-been-selected-to-create-in-…-error"><a href="#no-schema-has-been-selected-to-create-in-…-error" class="headerlink" title="no schema has been selected to create in … error"></a><a href="https://stackoverflow.com/questions/41207259/no-schema-has-been-selected-to-create-in-error">no schema has been selected to create in … error</a></h1>
+<h2 id="原因："><a href="#原因：" class="headerlink" title="原因："></a>原因：</h2><p><a href="https://stackoverflow.com/questions/41207259/no-schema-has-been-selected-to-create-in-error">no schema has been selected to create in … error</a></p>
+
         </div>
         
         <div class="level is-size-7 is-uppercase">
@@ -508,26 +508,22 @@ var _hmt = _hmt || [];
                     <i onclick="this.previousElementSibling.innerText='收起目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-down"  style="display: none;"></i>
                     <i onclick="this.previousElementSibling.previousElementSibling.innerText='展开目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-right"></i>
                 </h3>
-                <div style="display: block;"><ul class="menu-list"></i>&nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
+                <div style="display: block;"><ul class="menu-list"></i><li>
         <a class="is-flex" style="display: inline;" href="#数据库备份：">
-        <span class="has-mr-6">1.1</span>
+        <span class="has-mr-6">1</span>
         <span>数据库备份：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#数据库导入：">
-        <span class="has-mr-6">1.2</span>
+        <span class="has-mr-6">2</span>
         <span>数据库导入：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#解决：">
-        <span class="has-mr-6">1.3</span>
+        <span class="has-mr-6">3</span>
         <span>解决：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#原因：">
-        <span class="has-mr-6">1.4</span>
+        <span class="has-mr-6">4</span>
         <span>原因：</span>
-        </a></li></ul><li>
-        <a class="is-flex" style="display: inline;" href="#no-schema-has-been-selected-to-create-in-…-error">
-        <span class="has-mr-6">2</span>
-        <span>no schema has been selected to create in … error</span>
         </a></li></ul></div>
             </div>
         </div>
@@ -651,26 +647,22 @@ var _hmt = _hmt || [];
                     <i onclick="this.previousElementSibling.innerText='收起目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-down"  style="display: none;"></i>
                     <i onclick="this.previousElementSibling.previousElementSibling.innerText='展开目录'; this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: inline');" class="fa fa-chevron-right"></i>
                 </h3>
-                <div style="display: block;"><ul class="menu-list"></i>&nbsp;&nbsp;<i onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: block'); this.setAttribute('style', 'display: none'); this.nextElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-down"></i><i style="display: none;" onclick="this.parentNode.nextElementSibling.setAttribute('style', 'display: none'); this.setAttribute('style', 'display: none'); this.previousElementSibling.setAttribute('style', 'display: block');" class="fa fa-chevron-right"></i></a><ul class="menu-list" style="display: none;"></i><li>
+                <div style="display: block;"><ul class="menu-list"></i><li>
         <a class="is-flex" style="display: inline;" href="#数据库备份：">
-        <span class="has-mr-6">1.1</span>
+        <span class="has-mr-6">1</span>
         <span>数据库备份：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#数据库导入：">
-        <span class="has-mr-6">1.2</span>
+        <span class="has-mr-6">2</span>
         <span>数据库导入：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#解决：">
-        <span class="has-mr-6">1.3</span>
+        <span class="has-mr-6">3</span>
         <span>解决：</span>
         </a></li><li>
         <a class="is-flex" style="display: inline;" href="#原因：">
-        <span class="has-mr-6">1.4</span>
+        <span class="has-mr-6">4</span>
         <span>原因：</span>
-        </a></li></ul><li>
-        <a class="is-flex" style="display: inline;" href="#no-schema-has-been-selected-to-create-in-…-error">
-        <span class="has-mr-6">2</span>
-        <span>no schema has been selected to create in … error</span>
         </a></li></ul></div>
             </div>
         </div>
