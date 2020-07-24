@@ -1,4 +1,4 @@
-https://blog.adream.win/git/
+https://blog.adream.win/tutorial/git/
 https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/
 https://blog.adream.win/tutorial/docker-timezone/
 https://blog.adream.win/article/poems/
