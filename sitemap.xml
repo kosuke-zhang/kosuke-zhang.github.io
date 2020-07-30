@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.adream.win/software/postgresql-backup/</loc>
+    
+    <lastmod>2020-07-30T18:21:53.096Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/software/The-tutorial-of-hexo-and-Icarus-theme/</loc>
+    
+    <lastmod>2020-07-30T18:20:42.883Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
     
     <lastmod>2020-07-30T18:18:12.716Z</lastmod>
@@ -9,21 +23,21 @@
   </url>
   
   <url>
-    <loc>https://blog.adream.win/tutorial/docker-timezone/</loc>
+    <loc>https://blog.adream.win/software/docker-timezone/</loc>
     
     <lastmod>2020-07-30T18:18:01.653Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.adream.win/tutorial/elasticsearch/</loc>
+    <loc>https://blog.adream.win/software/elasticsearch/</loc>
     
     <lastmod>2020-07-30T18:17:56.089Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.adream.win/tutorial/git/</loc>
+    <loc>https://blog.adream.win/software/git/</loc>
     
     <lastmod>2020-07-30T18:17:42.109Z</lastmod>
     
@@ -58,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://blog.adream.win/tutorial/The-tutorial-of-hexo-and-Icarus-theme/</loc>
-    
-    <lastmod>2020-07-25T00:49:56.887Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.adream.win/README.html</loc>
     
     <lastmod>2020-07-23T09:18:26.187Z</lastmod>
@@ -80,6 +87,20 @@
   
   
   <url>
+    <loc>https://zhangxu3486432.github.io/software/postgresql-backup/</loc>
+    
+    <lastmod>2020-07-30T18:21:53.096Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/software/The-tutorial-of-hexo-and-Icarus-theme/</loc>
+    
+    <lastmod>2020-07-30T18:20:42.883Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhangxu3486432.github.io/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
     
     <lastmod>2020-07-30T18:18:12.716Z</lastmod>
@@ -87,21 +108,21 @@
   </url>
   
   <url>
-    <loc>https://zhangxu3486432.github.io/tutorial/docker-timezone/</loc>
+    <loc>https://zhangxu3486432.github.io/software/docker-timezone/</loc>
     
     <lastmod>2020-07-30T18:18:01.653Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zhangxu3486432.github.io/tutorial/elasticsearch/</loc>
+    <loc>https://zhangxu3486432.github.io/software/elasticsearch/</loc>
     
     <lastmod>2020-07-30T18:17:56.089Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zhangxu3486432.github.io/tutorial/git/</loc>
+    <loc>https://zhangxu3486432.github.io/software/git/</loc>
     
     <lastmod>2020-07-30T18:17:42.109Z</lastmod>
     
@@ -132,13 +153,6 @@
     <loc>https://zhangxu3486432.github.io/software/UCAS-Affair-Scripts/</loc>
     
     <lastmod>2020-07-25T00:52:34.206Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangxu3486432.github.io/tutorial/The-tutorial-of-hexo-and-Icarus-theme/</loc>
-    
-    <lastmod>2020-07-25T00:49:56.887Z</lastmod>
     
   </url>
   

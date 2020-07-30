@@ -1,8 +1,9 @@
-https://blog.adream.win/tutorial/elasticsearch/
-https://blog.adream.win/tutorial/git/
+https://blog.adream.win/software/postgresql-backup/
+https://blog.adream.win/software/elasticsearch/
+https://blog.adream.win/software/git/
 https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/
-https://blog.adream.win/tutorial/docker-timezone/
+https://blog.adream.win/software/docker-timezone/
 https://blog.adream.win/article/poems/
 https://blog.adream.win/software/UCAS-Affair-Scripts/
 https://blog.adream.win/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/
-https://blog.adream.win/tutorial/The-tutorial-of-hexo-and-Icarus-theme/
+https://blog.adream.win/software/The-tutorial-of-hexo-and-Icarus-theme/
