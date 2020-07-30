@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
+    
+    <lastmod>2020-07-30T16:03:46.423Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/tutorial/postgresql-backup/</loc>
+    
+    <lastmod>2020-07-30T16:03:20.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/tutorial/elasticsearch/</loc>
+    
+    <lastmod>2020-07-30T12:42:43.029Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.adream.win/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/</loc>
     
     <lastmod>2020-07-25T01:11:50.281Z</lastmod>
@@ -51,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
-    
-    <lastmod>2020-07-24T16:21:21.033Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.adream.win/README.html</loc>
     
     <lastmod>2020-07-23T09:18:26.187Z</lastmod>
@@ -71,6 +85,27 @@
     
   </url>
   
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
+    
+    <lastmod>2020-07-30T16:03:46.423Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/tutorial/postgresql-backup/</loc>
+    
+    <lastmod>2020-07-30T16:03:20.650Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/tutorial/elasticsearch/</loc>
+    
+    <lastmod>2020-07-30T12:42:43.029Z</lastmod>
+    
+  </url>
   
   <url>
     <loc>https://zhangxu3486432.github.io/paper/%E5%9F%8E%E5%B8%82%E5%BC%82%E5%B8%B8%E4%BA%8B%E4%BB%B6%E6%A3%80%E6%B5%8B/</loc>
@@ -118,13 +153,6 @@
     <loc>https://zhangxu3486432.github.io/tutorial/git/</loc>
     
     <lastmod>2020-07-24T16:29:32.349Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangxu3486432.github.io/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
-    
-    <lastmod>2020-07-24T16:21:21.033Z</lastmod>
     
   </url>
   
