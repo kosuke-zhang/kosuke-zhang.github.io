@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.adream.win/article/poems/</loc>
+    
+    <lastmod>2020-08-06T14:01:03.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/%E6%96%87%E6%A1%88.html</loc>
+    
+    <lastmod>2020-08-06T09:13:31.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87.html</loc>
+    
+    <lastmod>2020-08-05T14:34:02.512Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.adream.win/software/postgresql-backup/</loc>
     
     <lastmod>2020-07-30T18:21:53.096Z</lastmod>
@@ -58,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://blog.adream.win/article/poems/</loc>
-    
-    <lastmod>2020-07-25T00:53:50.868Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.adream.win/software/UCAS-Affair-Scripts/</loc>
     
     <lastmod>2020-07-25T00:52:34.206Z</lastmod>
@@ -85,6 +99,27 @@
     
   </url>
   
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/article/poems/</loc>
+    
+    <lastmod>2020-08-06T14:01:03.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/%E6%96%87%E6%A1%88.html</loc>
+    
+    <lastmod>2020-08-06T09:13:31.697Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87.html</loc>
+    
+    <lastmod>2020-08-05T14:34:02.512Z</lastmod>
+    
+  </url>
   
   <url>
     <loc>https://zhangxu3486432.github.io/software/postgresql-backup/</loc>
@@ -139,13 +174,6 @@
     <loc>https://zhangxu3486432.github.io/about/index.html</loc>
     
     <lastmod>2020-07-25T00:54:40.573Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangxu3486432.github.io/article/poems/</loc>
-    
-    <lastmod>2020-07-25T00:53:50.868Z</lastmod>
     
   </url>
   
