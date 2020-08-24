@@ -1,5 +1,3 @@
-https://blog.adream.win/PyG/
-https://blog.adream.win/software/Untitled/
 https://blog.adream.win/software/postgresql-backup/
 https://blog.adream.win/software/elasticsearch/
 https://blog.adream.win/software/git/
