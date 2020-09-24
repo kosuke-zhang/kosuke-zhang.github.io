@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.adream.win/article/poems/</loc>
+    <loc>https://blog.adream.win/django-migrate-mysql-to-psql/</loc>
     
-    <lastmod>2020-08-24T06:58:07.950Z</lastmod>
+    <lastmod>2020-09-24T15:13:06.502Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.adream.win/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87.html</loc>
+    <loc>https://blog.adream.win/tutorial/postgresql-backup/</loc>
     
-    <lastmod>2020-08-05T14:34:02.512Z</lastmod>
+    <lastmod>2020-08-27T13:34:13.601Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.adream.win/article/poems/</loc>
+    
+    <lastmod>2020-08-24T06:58:07.950Z</lastmod>
     
   </url>
   
@@ -79,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://blog.adream.win/README.html</loc>
-    
-    <lastmod>2020-07-23T09:18:26.187Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.adream.win/404.html</loc>
     
     <lastmod>2020-02-23T16:18:50.039Z</lastmod>
@@ -94,16 +94,23 @@
   
   
   <url>
-    <loc>https://zhangxu3486432.github.io/article/poems/</loc>
+    <loc>https://zhangxu3486432.github.io/django-migrate-mysql-to-psql/</loc>
     
-    <lastmod>2020-08-24T06:58:07.950Z</lastmod>
+    <lastmod>2020-09-24T15:13:06.502Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zhangxu3486432.github.io/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87.html</loc>
+    <loc>https://zhangxu3486432.github.io/tutorial/postgresql-backup/</loc>
     
-    <lastmod>2020-08-05T14:34:02.512Z</lastmod>
+    <lastmod>2020-08-27T13:34:13.601Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhangxu3486432.github.io/article/poems/</loc>
+    
+    <lastmod>2020-08-24T06:58:07.950Z</lastmod>
     
   </url>
   
@@ -167,13 +174,6 @@
     <loc>https://zhangxu3486432.github.io/software/UCAS-Affair-Scripts/</loc>
     
     <lastmod>2020-07-25T00:52:34.206Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangxu3486432.github.io/README.html</loc>
-    
-    <lastmod>2020-07-23T09:18:26.187Z</lastmod>
     
   </url>
   
