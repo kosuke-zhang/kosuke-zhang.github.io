@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.adream.win/tutorial/django-migrate-mysql-to-psql/</loc>
+    
+    <lastmod>2020-09-25T04:16:24.969Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.adream.win/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
     
     <lastmod>2020-09-25T02:00:20.590Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://blog.adream.win/tutorial/docker-timezone/</loc>
     
     <lastmod>2020-09-25T01:36:09.556Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.adream.win/tutorial/django-migrate-mysql-to-psql/</loc>
-    
-    <lastmod>2020-09-25T01:36:01.794Z</lastmod>
     
   </url>
   
@@ -87,6 +87,13 @@
   
   
   <url>
+    <loc>https://zhangxu3486432.github.io/tutorial/django-migrate-mysql-to-psql/</loc>
+    
+    <lastmod>2020-09-25T04:16:24.969Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhangxu3486432.github.io/bug/PostgreSQL%E8%BF%81%E7%A7%BB%E6%95%B0%E6%8D%AE/</loc>
     
     <lastmod>2020-09-25T02:00:20.590Z</lastmod>
@@ -104,13 +111,6 @@
     <loc>https://zhangxu3486432.github.io/tutorial/docker-timezone/</loc>
     
     <lastmod>2020-09-25T01:36:09.556Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhangxu3486432.github.io/tutorial/django-migrate-mysql-to-psql/</loc>
-    
-    <lastmod>2020-09-25T01:36:01.794Z</lastmod>
     
   </url>
   
